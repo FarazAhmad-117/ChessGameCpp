@@ -86,6 +86,7 @@ void Board::gameLoop(){
                     }
 
                 }
+                PlaySound(TEXT("sounds/movement.wav"),NULL,SND_SYNC);
 
             }
 
@@ -110,6 +111,7 @@ void Board::gameLoop(){
                     }
 
                 }
+                PlaySound(TEXT("sounds/movement.wav"),NULL,SND_SYNC);
 
             }
 

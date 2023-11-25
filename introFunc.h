@@ -139,30 +139,32 @@ string takeMode(){
                     option1=true;
                 }
             }
-            if(option1){
-                drawRoundedBox(350,270,300,50,13,YELLOW,BLACK,3);
-                text1 = (char*)"Dark";
-                setbkcolor(YELLOW);
-                setcolor(GREEN);
-                settextstyle(BOLD_FONT, HORIZ_DIR, 4);
-                outtextxy(500 - textwidth(text1)/2,295-textheight(text1)/2,text1);
-                text1 = (char*)"Light";
-                drawRoundedBox(350,350,300,50,13,COLOR(78, 32, 89),BLUE,3);
-                setbkcolor(COLOR(78, 32, 89));
-                setcolor(WHITE);
-                outtextxy(500 - textwidth(text1)/2,375-textheight(text1)/2,text1);
-            }else{
-                drawRoundedBox(350,270,300,50,13,COLOR(78, 32, 89),BLUE,3);
-                text1 = (char*)"Dark";
-                setbkcolor(COLOR(78, 32, 89));
-                setcolor(WHITE);
-                settextstyle(BOLD_FONT, HORIZ_DIR, 4);
-                outtextxy(500 - textwidth(text1)/2,295-textheight(text1)/2,text1);
-                text1 = (char*)"Light";
-                drawRoundedBox(350,350,300,50,13,YELLOW,BLACK,3);
-                setbkcolor(YELLOW);
-                setcolor(GREEN);
-                outtextxy(500 - textwidth(text1)/2,375-textheight(text1)/2,text1);
+            if(ch == 'w'|| ch == 'W'|| ch == 'a' || ch == 'A'|| ch=='s'||ch=='S'||ch=='d'||ch=='D'||ch==72||ch==75||ch==77||ch==80){
+                if(option1){
+                    drawRoundedBox(350,270,300,50,13,YELLOW,BLACK,3);
+                    text1 = (char*)"Dark";
+                    setbkcolor(YELLOW);
+                    setcolor(GREEN);
+                    settextstyle(BOLD_FONT, HORIZ_DIR, 4);
+                    outtextxy(500 - textwidth(text1)/2,295-textheight(text1)/2,text1);
+                    text1 = (char*)"Light";
+                    drawRoundedBox(350,350,300,50,13,COLOR(78, 32, 89),BLUE,3);
+                    setbkcolor(COLOR(78, 32, 89));
+                    setcolor(WHITE);
+                    outtextxy(500 - textwidth(text1)/2,375-textheight(text1)/2,text1);
+                }else{
+                    drawRoundedBox(350,270,300,50,13,COLOR(78, 32, 89),BLUE,3);
+                    text1 = (char*)"Dark";
+                    setbkcolor(COLOR(78, 32, 89));
+                    setcolor(WHITE);
+                    settextstyle(BOLD_FONT, HORIZ_DIR, 4);
+                    outtextxy(500 - textwidth(text1)/2,295-textheight(text1)/2,text1);
+                    text1 = (char*)"Light";
+                    drawRoundedBox(350,350,300,50,13,YELLOW,BLACK,3);
+                    setbkcolor(YELLOW);
+                    setcolor(GREEN);
+                    outtextxy(500 - textwidth(text1)/2,375-textheight(text1)/2,text1);
+                }
             }
         }
     }
@@ -273,7 +275,7 @@ void setUpArena(){
 }
 
 void stringToChar(char arr[],string s){
-    for(int i =0;i<s.length();i++){
+    for(unsigned int i =0;i<s.length();i++){
         arr[i]=s[i];
         arr[i+1] = '\0';
     }
