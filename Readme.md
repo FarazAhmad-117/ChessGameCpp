@@ -9,9 +9,9 @@ games.
 
 ### Tasks Ahead:
 
-1 - Incorporate sound to Chess.  Done !
-2 - pawnPromotion fuction.  Done !
-3 - On change Movement Do not Show all movements and then mute all movements just mute last focus and show new focus.  Done !
+1 - Incorporate sound to Chess.  Done !<br>
+2 - pawnPromotion fuction.  Done !<br>
+3 - On change Movement Do not Show all movements and then mute all movements just mute last focus and show new focus.  Done !<br>
 
 ### Error Was great and I was unable to solve it at this moment: The reason I don't know! At the Moment!
 
