@@ -18,14 +18,14 @@ games.
 So I am going to make anoher version 1.5.0
 
 ## How to Setup the project:
-1- First of all clone this repo.
-2- Open the dependences folder and copy c header files namely graphics.h and winbgim.h 
-3- Paste these files to the include folder of your compiler.
-4- Copy the libbgi.a binary file.
-5- Paste it inside the bin folder of your compiler.
-6- Now you can compile the game by going in to the terminal and using this command (g++ main.cpp -o main -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32 -lwinmm)
-7- If you were unable to locate respective folders you can youtube to find them!
-8- You will get a main.exe if was not already present.
+1- First of all clone this repo.<br>
+2- Open the dependences folder and copy c header files namely graphics.h and winbgim.h <br>
+3- Paste these files to the include folder of your compiler.<br>
+4- Copy the libbgi.a binary file.<br>
+5- Paste it inside the bin folder of your compiler.<br>
+6- Now you can compile the game by going in to the terminal and using this command (g++ main.cpp -o main -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32 -lwinmm)<br>
+7- If you were unable to locate respective folders you can youtube to find them!<br>
+8- You will get a main.exe if was not already present.<br>
 
 ## Enjoy the Game 
 
